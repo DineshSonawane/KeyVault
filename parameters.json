@@ -1,0 +1,26 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "KeyVaultName": {
+        	"value": "KeyVault0102019"
+       	        },
+	"objectId": {
+        	"value": "6ab9ff69-6a19-48b3-9657-27c34fa3146c"
+       	        },
+    	"secretsObject": {
+     		 "value": {
+       			 "secrets": [
+          				{
+           				"secretName": "Secret1",
+            				"secretValue": "secretVaule1"
+          				},
+          				{
+           				 "secretName": "Secret2",
+            				"secretValue": "secretValue2"
+         				 }
+        			     ]
+      			}
+    		     }
+	}
+}
